@@ -1,0 +1,14 @@
+* {
+  font-family: 'Oswald', sans-serif;
+}
+
+header {
+  background-color: #004466;
+  display: relative;
+}
+
+.header__section--username {
+  color: #5bb7d4;
+  margin: 5px;
+  left: 90%;
+}
