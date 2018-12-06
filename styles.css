@@ -1,14 +1,49 @@
 * {
+  box-sizing: border-box;
   font-family: 'Oswald', sans-serif;
+  text-transform: capitalize;
 }
 
 header {
   background-color: #004466;
   display: relative;
+  height: 200px;
+  /*display: flex;*/
+}
+
+body {
+  background-color: #016699;
 }
 
 .header__section--username {
   color: #5bb7d4;
+  /*flex-direction: column;*/
   margin: 5px;
-  left: 90%;
+}
+
+.header__section--icon {
+  height: 35px;
+  flex-direction: r/*o*/w;
+  width: 35px;
+}
+
+#header__section--logo {
+  height: 50px;
+  margin: 10px;
+  width: 100px;
+}
+
+div {
+  box-shadow: 5px 5px 5px 5px #004466;
+  height: 500px;
+  margin: 5px;
+  width: 350px;
+}
+
+.div__section--header-attach-number {
+  font-size: 1.8em;
+}
+
+.div__section--header-attach {
+  font-size: 1em;
 }
