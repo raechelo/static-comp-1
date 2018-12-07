@@ -6,9 +6,9 @@
 
 header {
   background-color: #004466;
-  display: relative;
+  position: relative;
   height: 200px;
-  /*display: flex;*/
+  display: flex;
 }
 
 body {
@@ -17,33 +17,49 @@ body {
 
 .header__section--username {
   color: #5bb7d4;
-  /*flex-direction: column;*/
-  margin: 5px;
+  display: inline-flex;
+  position: absolute;
+  right: 2%;
+  top: 2%;
 }
 
-.header__section--icon {
-  height: 35px;
-  flex-direction: r/*o*/w;
-  width: 35px;
+nav {
+  display: inline-flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.section__nav {
+  margin: 1rem;
 }
 
 #header__section--logo {
-  height: 50px;
+  height: 100px;
   margin: 10px;
-  width: 100px;
+  position: absolute;
+  right: 1rem;
+  bottom: .5rem;
+  width: 275px;
 }
 
 div {
   box-shadow: 5px 5px 5px 5px #004466;
   height: 500px;
-  margin: 5px;
+  margin: 2rem;
   width: 350px;
 }
 
 .div__section--header-attach-number {
-  font-size: 1.8em;
+  font-size: 1.8rem;
 }
 
 .div__section--header-attach {
-  font-size: 1em;
+  font-size: 1rem;
+}
+
+#body__div-background-box1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/spiderman.jpg");
+  background-size: 100%;
+  height: 10rem;
 }
