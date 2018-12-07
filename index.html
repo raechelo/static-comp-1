@@ -3,39 +3,41 @@
 <head>
   <title>Some of the Many Alternatives to Spider-Man</title>
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="normalize.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <header>
   <section class="header__section--username">
-    <img src="icons/person.png" class="header__section--icon">
-    <h3 class="section__header--heading" id="section__header--heading-username">Admin Username</h3>
-    <img src="icons/dropdown.png" class="header__section--icon" id="header__section--icon-id">
+    <span class="far fa-user" id="header__section--username-icon"></span>
+    <p class="section__header--p" id="section__header--p-username">Admin Username</p>
+    <span class="fas fa-caret-down" id="header__section--username-icon"></span>
   </section>
-  <section class="header__section--menu">
-    <img src="icons/share.png" class="header__section--icon">
-    <h2 class="section__header--heading">shares</h2>
-    <img src="icons/bookmark.png" class="header__section--icon">
-    <h2 class="section__header--heading">reading list</h2>
-    <img src="icons/person.png" class="header__section--icon">
-    <h2 class="section__header--heading">personal</h2>
-  </section>
+  <nav class="header__section--menu">
+   <span class="fas fa-share-alt section__nav"></span>
+    <p class="section__header--p">share</p>
+    <span class="far fa-bookmark section__nav"></span>
+    <p class="section__header--p">reading list</p>
+    <span class="fas fa-list-ul section__nav" id="section__nav--personal"></span>
+    <p class="section__header--p">personal</p>
+  </nav>
     <img src="icons/marvel_logo.png" id="header__section--logo">
 </header>
 <body>
   <div class="body__div-card">
-    <section class="body__div-background">
+    <section id="body__div-background-box1">
       <h6>reads</h6>
     <h5>04</h5>
       <h4>recipeint's name here</h4>
       <p>wednesdaay 12/05/18 10:10pm</p>
     </section>
-      <section class="div__section--box">
+      <section class="div__section--box"">
         <p>https://www.youtube.com/watch?v=tg52up16eq0</p>
       </section>
-      <h6 class="div__section--header-attach">earth dimension</h6>
-      <h4 class="div__section--header-attach-number">616</h4>
-      <h6 class="div__section--header-attach">published</h6>
-      <h4 class="div__section--header-attach-number">1966</h4>
+    <h6 class="div__section--header-attach">published</h6>
+    <h4 class="div__section--header-attach-number">1966</h4>
+    <h6 class="div__section--header-attach">earth dimension</h6>
+    <h4 class="div__section--header-attach-number">616</h4>
   </div>
 </body>
 </html>

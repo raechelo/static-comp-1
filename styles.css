@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  text-transform: capitalize;
+}
+
+header {
+  background-color: #004466;
+  position: relative;
+  height: 200px;
+  display: flex;
+}
+
+body {
+  background-color: #016699;
+}
+
+.header__section--username {
+  color: #5bb7d4;
+  display: inline-flex;
+  position: absolute;
+  right: 2%;
+  top: 2%;
+}
+
+nav {
+  display: inline-flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.section__nav {
+  margin: 1rem;
+}
+
+#header__section--logo {
+  height: 100px;
+  margin: 10px;
+  position: absolute;
+  right: 1rem;
+  bottom: .5rem;
+  width: 275px;
+}
+
+div {
+  box-shadow: 5px 5px 5px 5px #004466;
+  height: 500px;
+  margin: 2rem;
+  width: 350px;
+}
+
+.div__section--header-attach-number {
+  font-size: 1.8rem;
+}
+
+.div__section--header-attach {
+  font-size: 1rem;
+}
+
+#body__div-background-box1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/spiderman.jpg");
+  background-size: 100%;
+  height: 10rem;
+}
