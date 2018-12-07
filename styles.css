@@ -50,7 +50,7 @@ nav {
   width: 2rem;
 }
 
-a: hover, focus {
+a:hover, focus {
   color: #ff2105;
   padding-top: 1rem;
 }
