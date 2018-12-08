@@ -2,6 +2,7 @@
   box-sizing: border-box;
   color: #E4E5E6;
   font-family: 'Oswald', sans-serif;
+  margin: 0;
   text-transform: capitalize;
 }
 
@@ -15,6 +16,7 @@ header {
 
 body {
   background-color: #016699;
+  font-size: 62.5%;
 }
 
 .header__section--username {
@@ -24,6 +26,18 @@ body {
   position: absolute;
   right: 2%;
   top: 2%;
+}
+
+.fa-caret-down,
+.fa-user {
+  margin: .4rem;
+}
+
+.fa-spider,
+.fa-bookmark,
+.fa-book-open {
+  color: #000;
+  margin: .5rem 1rem;
 }
 
 #header__section--p-username {
@@ -70,7 +84,8 @@ a:hover, focus {
 
 div {
   box-shadow: 5px 5px 5px 5px #004466;
-  flex: wrap;
+  display: inline-block;
+  flex-direction: row;
   height: 500px;
   margin: 2rem;
   width: 350px;
@@ -89,6 +104,10 @@ div {
   height: 5rem;
   margin: 2rem;
   width: 17rem;
+}
+
+#section-card-holder {
+  display: flex;
 }
 
 .body__div-background-card {
