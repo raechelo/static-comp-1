@@ -41,6 +41,11 @@ body {
   margin: .5rem 1rem;
 }
 
+/*.fa-share {
+  display: inline;
+  height: 1rem;
+}*/
+
 .header__section--a {
   height: 1.8rem;
 }
@@ -84,7 +89,7 @@ h1 {
 }
 
 div {
-  box-shadow: 5px 5px 5px 5px #004466;
+  box-shadow: 3px 3px 3px 3px #004466;
   display: inline-block;
   flex-direction: row;
   height: 400px;
@@ -143,13 +148,25 @@ div {
   font-size: 1.7rem;
 }
 
-.div__section-name,
-.div__section-alias,
 .div__section--header-publish,
 .div__section--header-publish-year,
 .div__section--header-dimension,
 .div__section--header-dimension-number {
   margin: .6rem 1rem;
+}
+
+.div__section-name {
+  margin: .6rem 0 .3rem 1rem;
+}
+
+.div__section-alias {
+  margin: 0 0 1rem 1rem;
+}
+
+.div__section--header-dimension,
+.div__section--header-publish {
+  font-size: .8rem;
+  text-transform: uppercase;
 }
 
 .body__div-background-card {
@@ -177,6 +194,30 @@ div {
 
 #body__div-background-box4 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/spiderpunk.jpg");
+  background-size: 125%;
+  background-position: center;
+}
+
+#body__div-background-box5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/pavitr.jpg");
+  background-size: 100%;
+  background-position-y: 33%;
+}
+
+#body__div-background-box6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/cosmicspiderman.jpg");
+  background-size: 125%;
+  background-position: center;
+}
+
+#body__div-background-box7 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/spider-man-noir.jpg");
+  background-size: 150%;
+  background-position: center;
+}
+
+#body__div-background-box8 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/spiderwoman.jpeg");
   background-size: 125%;
   background-position: center;
 }
