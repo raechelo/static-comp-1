@@ -78,12 +78,17 @@ a:hover, focus {
   width: 175px;
 }
 
+h1 {
+  font-size: 28px;
+  margin: 20px;
+}
+
 div {
   box-shadow: 5px 5px 5px 5px #004466;
   display: inline-block;
   flex-direction: row;
   height: 400px;
-  margin: 2rem;
+  margin: .5rem;
   position: relative;
   width: 250px;
 }
@@ -94,6 +99,10 @@ div {
 
 .div__section--header-attach {
   font-size: 1rem;
+}
+
+.div__section-name {
+  margin: .7rem;
 }
 
 .div__section--box {
