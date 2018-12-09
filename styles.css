@@ -101,21 +101,18 @@ div {
   font-size: 1rem;
 }
 
-.div__section-name {
-  margin: .7rem;
-}
-
 .div__section--box {
   background-color: #5bb7d4;
   height: 50px;
-  margin: 5% 10%;
+  margin: auto;
   padding: 8px;
-  width: 200px;
+  width: 210px;
 }
 
-.section__p--link {
+.div__section--link {
   color: #004466;
   font-size: .8rem;
+  text-decoration: none;
   text-transform: lowercase;
 }
 
@@ -125,16 +122,34 @@ div {
   padding: 2%;
 }
 
-.div__section-reads {
+.div__section-reads,
+.div__section-count {
   font-size: .7rem;
-  padding: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
   text-align: right;
 }
 
-.div__section-count {
-  font-size: 1.4rem;
-  padding-right: 10px;
-  text-align: right;
+.div__section-name {
+  font-size: 1rem;
+}
+
+.div__section--header-publish-year {
+  font-size: 1rem;
+}
+
+.div__section-count,
+.div__section--header-dimension-number {
+  font-size: 1.7rem;
+}
+
+.div__section-name,
+.div__section-alias,
+.div__section--header-publish,
+.div__section--header-publish-year,
+.div__section--header-dimension,
+.div__section--header-dimension-number {
+  margin: .6rem 1rem;
 }
 
 .body__div-background-card {
