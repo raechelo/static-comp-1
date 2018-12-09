@@ -12,6 +12,7 @@ header {
   display: flex;
   padding: 1rem;
   position: relative;
+  width: 100%;
 }
 
 body {
@@ -21,7 +22,7 @@ body {
 
 .header__section--username {
   color: #5bb7d4;
-  font-size: 1.3rem;
+  font-size: .8rem;
   display: inline-flex;
   position: absolute;
   right: 2%;
@@ -40,11 +41,6 @@ body {
   margin: .5rem 1rem;
 }
 
-#header__section--p-username {
-  font-size: 1.3rem;
-  margin: 0 1rem;
-}
-
 .header__section--a {
   height: 1.8rem;
 }
@@ -52,7 +48,7 @@ body {
 nav {
   bottom: 0;
   display: inline-flex;
-  font-size: 1.6rem;
+  font-size: 1rem;
   left: 0;
   margin: 1rem;
   position: absolute;
@@ -74,21 +70,27 @@ a:hover, focus {
 }
 
 #header__section--logo {
-  height: 100px;
+  height: 75px;
   margin: 10px;
   position: absolute;
   right: 1rem;
   bottom: .5rem;
-  width: 275px;
+  width: 175px;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 20px;
 }
 
 div {
   box-shadow: 5px 5px 5px 5px #004466;
   display: inline-block;
   flex-direction: row;
-  height: 500px;
-  margin: 2rem;
-  width: 350px;
+  height: 400px;
+  margin: .5rem;
+  position: relative;
+  width: 250px;
 }
 
 .div__section--header-attach-number {
@@ -99,15 +101,55 @@ div {
   font-size: 1rem;
 }
 
-.section__p--link {
-  background-color: #5BB7D4;
-  height: 5rem;
-  margin: 2rem;
-  width: 17rem;
+.div__section--box {
+  background-color: #5bb7d4;
+  height: 50px;
+  margin: auto;
+  padding: 8px;
+  width: 210px;
+}
+
+.div__section--link {
+  color: #004466;
+  font-size: .8rem;
+  text-decoration: none;
+  text-transform: lowercase;
 }
 
 #section-card-holder {
   display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+}
+
+.div__section-reads,
+.div__section-count {
+  font-size: .7rem;
+  padding-top: 10px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.div__section-name {
+  font-size: 1rem;
+}
+
+.div__section--header-publish-year {
+  font-size: 1rem;
+}
+
+.div__section-count,
+.div__section--header-dimension-number {
+  font-size: 1.7rem;
+}
+
+.div__section-name,
+.div__section-alias,
+.div__section--header-publish,
+.div__section--header-publish-year,
+.div__section--header-dimension,
+.div__section--header-dimension-number {
+  margin: .6rem 1rem;
 }
 
 .body__div-background-card {
@@ -117,20 +159,24 @@ div {
 
 #body__div-background-box1 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/spiderman.jpg");
-  background-size: 100%;
+  background-size: 125%;
+  background-position: center;
 }
 
 #body__div-background-box2 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/milesmorales.jpeg");
-  background-size: 100%;
+  background-size: 126%;
+  background-position: center;
 }
 
 #body__div-background-box3 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/spidergwen.jpeg");
-  background-size: 100%;
+  background-size: 108%;
+  background-position: center;
 }
 
 #body__div-background-box4 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/spiderpunk.jpg");
-  background-size: 100%;
+  background-size: 125%;
+  background-position: center;
 }
