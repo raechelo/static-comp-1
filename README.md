@@ -5,7 +5,7 @@ This project was to take a static composition of a website and recreate it using
 The comp:
 
 
-        static-comp-1/static-comp-challenge-2.jpg
+        ![Alt text](static-comp-1/static-comp-challenge-2.jpg "given comp")
       
 
 My Page:
