@@ -20,4 +20,4 @@ Superheroes are awesome, and Marvel comics have some really cool alternate unive
 
 # Code Style
 
-I tried to set a standard naming convention and follow it, as I want to be precise in my naming.
+I tried to set a standard naming convention and follow it through the code. The side should be fully responsive, with 3 media queries. When shortened to the mid 700'spx, the nav bar will stack, and then at 320px, the nav bar will just become icons, which will sitll be usable as navigational tools and links. I also included a normalize file.
