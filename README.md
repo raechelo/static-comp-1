@@ -5,14 +5,14 @@ This project was to take a static composition of a website and recreate it using
 The comp:
 
 
-![my comp](https://i.postimg.cc/mzJH6TS8/Snip20181211-7.png)
+![my comp-show-responsive](https://i.postimg.cc/mzJH6TS8/Snip20181211-7.png)
 
-[url=https://postimg.cc/rK641Fsp](https://i.postimg.cc/rK641Fsp/Snip20181211-8.png)
+![my comp, full size](https://i.postimg.cc/rK641Fsp/Snip20181211-8.png)
 
 
 My Page:
 
-[url=https://postimg.cc/JGbkPVH5](https://i.postimg.cc/JGbkPVH5/Snip20181211-9.png)
+![given-static-comp](https://i.postimg.cc/JGbkPVH5/Snip20181211-9.png)
    
 
 # Design Choice & Features
