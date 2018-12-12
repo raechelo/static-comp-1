@@ -4,18 +4,9 @@ This project was to take a static composition of a website and recreate it using
 
 The comp:
 
-
-        ![Alt text](static-comp-1/static-comp-challenge-2.jpg "given comp")
-      
+      <img src="static-comp-challenge-2">
 
 My Page:
-
-
-        static-comp-1/Snip20181211_8.png
-      
-
-
-        static-comp-1/Snip20181211_7.png
    
 
 # Design Choice & Features
