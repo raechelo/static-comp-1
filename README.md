@@ -5,6 +5,10 @@ This project was to take a static composition of a website and recreate it using
 The comp:
 
 
+https://postimg.cc/mzJH6TS8
+https://postimg.cc/rK641Fsp
+https://postimg.cc/JGbkPVH5
+
 ![my comp-show-responsive](https://i.postimg.cc/mzJH6TS8/Snip20181211-7.png)
 
 ![my comp, full size](https://i.postimg.cc/rK641Fsp/Snip20181211-8.png)
@@ -12,7 +16,7 @@ The comp:
 
 My Page:
 
-![given-static-comp](https://i.postimg.cc/JGbkPVH5/Snip20181211-9.png)
+![given-static-comp](https://postimg.cc/JGbkPVH5)
    
 
 # Design Choice & Features
