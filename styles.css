@@ -233,6 +233,10 @@ div {
   #header__section--logo {
     width: 145px;
   }
+  nav {
+    margin: 2rem .5rem;
+    height: 129px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
