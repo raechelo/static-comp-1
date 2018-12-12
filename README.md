@@ -5,7 +5,7 @@ This project was to take a static composition of a website and recreate it using
 The comp:
 
 
-[url=https://postimg.cc/mzJH6TS8][img]https://i.postimg.cc/mzJH6TS8/Snip20181211-7.png[/img][/url]
+![url=https://postimg.cc/mzJH6TS8][img]https://i.postimg.cc/mzJH6TS8/Snip20181211-7.png[/img][/url]
 
 [url=https://postimg.cc/rK641Fsp][img]https://i.postimg.cc/rK641Fsp/Snip20181211-8.png[/img][/url]
 
