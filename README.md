@@ -4,7 +4,8 @@ This project was to take a static composition of a website and recreate it using
 
 The comp:
 
-      <img src="static-comp-challenge-2">
+![static-comp-1/static-comp-challenge-2.jpg]
+      
 
 My Page:
    
