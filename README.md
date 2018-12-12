@@ -9,7 +9,7 @@ https://postimg.cc/mzJH6TS8
 https://postimg.cc/rK641Fsp
 https://postimg.cc/JGbkPVH5
 
-![my comp-show-responsive](static-comp-1/Snip20181211_7.png)
+![my comp-show-responsive](https://i.postimg.cc/PJrQJxvs/Snip20181211-7.png)
 
 ![my comp, full size](https://i.postimg.cc/rK641Fsp/Snip20181211-8.png)
 
