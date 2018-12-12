@@ -1,4 +1,3 @@
-# static-comp-1
 # Static Comp
 
 This project was to take a static composition of a website and recreate it using HTML and CSS. We were allowed to add our own personality and touches to it, but we had to keep our format very much the same.
