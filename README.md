@@ -2,21 +2,16 @@
 
 This project was to take a static composition of a website and recreate it using HTML and CSS. We were allowed to add our own personality and touches to it, but we had to keep our format very much the same.
 
-The comp:
-
-
-https://postimg.cc/mzJH6TS8
-https://postimg.cc/rK641Fsp
-https://postimg.cc/JGbkPVH5
-
-![my comp-show-responsive](https://i.postimg.cc/PJrQJxvs/Snip20181211-7.png)
+My page:
 
 ![my comp, full size](https://i.postimg.cc/rK641Fsp/Snip20181211-8.png)
 
+![my comp-show-responsive](https://i.postimg.cc/PJrQJxvs/Snip20181211-7.png)
 
-My Page:
 
-![given-static-comp](https://postimg.cc/JGbkPVH5)
+Given static-comp:
+
+![given-static-comp](https://i.postimg.cc/Pr7Qfdt9/Snip20181211-9.png)
    
 
 # Design Choice & Features
